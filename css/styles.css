@@ -18,8 +18,9 @@
 body{
   margin: 0px;
   background-color: #f6f8f9;
+  /*background-color: purple;*/
   border: solid 40px #ffffff;
-  height: 88vh;
+  height: 90vh;
   overflow-x:hidden;
 }
 p{
@@ -35,9 +36,11 @@ p{
   width: 200px;
   height: 56px;
   display: inline-block;
+  margin-top: 17px;
 }
 .rectangle-2{
   height: inherit;
+  height: 90vh;
   width: 50%;
   background-color: #f9fbfc;
   float: left;
@@ -80,33 +83,72 @@ p{
 }
 #app-name{
   font-family: Semibold;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 600;
   letter-spacing: -0.4px;
   color: #4e525f;
-  margin-top: 0px;
+  margin-top: 18px;
 }
 #app-description{
   font-family: Thinn;
   font-size: 32px;
   font-weight: 300;
   color: #666666;
-  margin-top: 50px;
+  margin-top: 84px;
 }
 #icon{
-  width: 100px;
- height: 100px;
+  width: 124px;
+ height: 124px;
 }
 #icon-p{
-  margin-top: 135px;
+  margin-top: 130px;
   margin-bottom: 0px;
   height: 93px;
 }
 #iPhone{
-  width: 315px;
-  height: 543px;
+  width: 395px;
+  height: 680px;
   right: 0;
   position: fixed;
-  margin-right: 11%;
+  margin-right: 9%;
   margin-top: 9vh;
+}
+@media only screen
+and (max-device-width : 1200px) {
+  #iPhone{
+    margin-right: 3.5%;
+  }
+}
+@media only screen
+and (min-device-width : 1600px) and (max-device-width: 1950px){
+  .rectangle-2{
+    padding-top: 6.5%;
+    height: 80vh;
+  }
+
+  #app-description{
+    margin-top: 75px;
+  }
+
+  #iPhone{
+    margin-right: 11.5%;
+    margin-top: 10.5%;
+  }
+}
+@media only screen
+and (max-device-width : 320px) {
+  body{
+    height: 93.5vh;
+  }
+  .rectangle-2{
+    padding-top: 14vh;
+    height: 79vh;
+  }
+
+  #iPhone{
+    margin-top: 27%;
+    margin-right: .5%;
+  }
+
+
 }
