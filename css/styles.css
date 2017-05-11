@@ -122,21 +122,27 @@ and (max-device-width : 415px) {
     height: 94vh;
   }
   .rectangle-2{
-    padding-top: 3vh;
     height: 50%;
     width: 100%;
   }
   .rectangle-3{
     width: 100%;
-    margin-top: 46vh;
+    /*margin-top: 46vh;*/
     float: none;
+    height: 50%;
+  }
+  #icon-p{
+    margin-top: 11vh;
+  }
+  #iPhone{
+    margin-top: 7vh;
   }
 }
 
 @media only screen
-and (min-device-height : 580px) and (max-device-height: 800px) {
+and (min-device-height : 580px) and (max-device-height: 800px) and (min-device-width : 430px) {
   .rectangle-2{
-    height: 672px;
+    height: 655px;
   }
   .rectangle-3{
     height: 100%;
