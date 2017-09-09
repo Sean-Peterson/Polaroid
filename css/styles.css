@@ -76,6 +76,10 @@ p{
   color: #f4f4f4;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+#apple-prompt a{
+  color: #f4f4f4;
+  text-decoration: none;
+}
 #android-prompt{
   margin-top: 19px;
   margin-left: 50px;
@@ -85,6 +89,10 @@ p{
   font-weight: 500;
   color: #f4f4f4;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+#android-prompt a{
+  color: #f4f4f4;
+  text-decoration: none;
 }
 #app-name{
   font-family: Semibold;
